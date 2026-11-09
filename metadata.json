@@ -1,0 +1,6 @@
+{
+  "name": "Editor Video Effect",
+  "description": "Studio motion graphics & video effect editor: Bumper Logo (Single & Multi-Logo), Video Title Card, dan Frame Video Logo Overlay dengan animasi sinematik, efek futuristik, dan ekspor instan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

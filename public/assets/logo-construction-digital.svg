@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Dark Navy Base Circle -->
+  <circle cx="256" cy="256" r="236" fill="#141C28" />
+
+  <!-- Outer Solid Gold/Amber Ring -->
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#FBB018" stroke-width="16" />
+
+  <!-- Inner Cyan Dashed Technical Tech Ring -->
+  <circle cx="256" cy="256" r="202" fill="none" stroke="#22D3EE" stroke-width="6" stroke-dasharray="10 14" stroke-linecap="round" />
+
+  <!-- Construction Helmet Group -->
+  <g id="helmet">
+    <!-- Helmet Dome Base -->
+    <path d="M 120 280 C 120 160 190 148 256 148 C 322 148 392 160 392 280 Z" fill="#FBB018" />
+
+    <!-- Helmet Left Highlight Curve -->
+    <path d="M 148 256 C 146 200 178 160 220 154 C 210 168 206 195 208 240 C 208 250 195 258 185 258 C 160 258 150 258 148 256 Z" fill="#FDE047" opacity="0.6" />
+
+    <!-- Play Icon (Centered on Helmet) -->
+    <polygon points="228,190 304,236 228,282" fill="#141C28" />
+
+    <!-- Helmet Brim -->
+    <rect x="76" y="278" width="360" height="38" rx="19" fill="#FBB018" />
+    <path d="M 76 298 C 76 308 85 316 95 316 L 417 316 C 427 316 436 308 436 298 L 436 294 L 76 294 Z" fill="#D97706" />
+  </g>
+
+  <!-- Digital Data Blocks (5 Blocks Under Helmet) -->
+  <g id="data-blocks">
+    <!-- Block 1 (Cyan) -->
+    <rect x="152" y="342" width="28" height="32" rx="6" fill="#22D3EE" />
+    <!-- Block 2 (Amber) -->
+    <rect x="198" y="342" width="28" height="32" rx="6" fill="#FBB018" />
+    <!-- Block 3 (Cyan Center) -->
+    <rect x="242" y="342" width="28" height="32" rx="6" fill="#22D3EE" />
+    <!-- Block 4 (Amber) -->
+    <rect x="286" y="342" width="28" height="32" rx="6" fill="#FBB018" />
+    <!-- Block 5 (Teal) -->
+    <rect x="332" y="342" width="28" height="32" rx="6" fill="#14B8A6" />
+  </g>
+
+  <!-- Digital Circuit Trace Lines & Nodes -->
+  <g id="circuit-traces" fill="none" stroke="#22D3EE" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left Trace from Block 1 -->
+    <path d="M 166 374 L 166 410 L 115 410" />
+    <circle cx="110" cy="410" r="10" fill="#22D3EE" stroke="none" />
+
+    <!-- Center Trace from Block 3 -->
+    <path d="M 256 374 L 256 438" />
+    <circle cx="256" cy="446" r="10" fill="#22D3EE" stroke="none" />
+
+    <!-- Right Trace from Block 5 -->
+    <path d="M 346 374 L 346 410 L 397 410" />
+    <circle cx="402" cy="410" r="10" fill="#22D3EE" stroke="none" />
+  </g>
+</svg>
